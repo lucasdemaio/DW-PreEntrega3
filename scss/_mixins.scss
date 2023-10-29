@@ -1,0 +1,42 @@
+@mixin box-productos {
+    width: 180px;
+    height: 88px;
+    margin: 100px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod-1 {
+    @include box-productos();
+}
+
+.prod-2 {
+    @include box-productos();
+}
+
+.prod-3 {
+    @include box-productos();
+}
+
+.prod-4 {
+    @include box-productos();
+}
+
+.prod-5 {
+    @include box-productos();
+}
+
+.prod-6 {
+    @include box-productos();
+}
+
+.prod-7 {
+    @include box-productos();
+}
+
+.prod-8 {
+    @include box-productos();
+}

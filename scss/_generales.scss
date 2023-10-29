@@ -1,0 +1,75 @@
+head {
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.fuentes {
+    font-family: $fuente-principal;
+
+}
+
+ul{ 
+    height: 100%;
+    list-style-type: none;
+}
+
+li{ 
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/*Para alinear al centro todos los titulos h1*/
+h1 {    
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*Para alinear al centro todos los titulos h2*/
+h2 {    
+    text-align: center;
+}
+
+
+h4{
+    font-size:x-large;
+}
+
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+img{
+    margin-top: 10px;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+}
+
+.boton:hover{
+    background-color: #158487;
+}
+
+.nosotros-article{
+    width: 700px;
+    height: 400px;
+}
+
+.espaciado{
+    margin-bottom: 600px;
+}
+
